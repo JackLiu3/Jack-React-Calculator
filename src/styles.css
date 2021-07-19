@@ -1,4 +1,59 @@
 .App {
   font-family: sans-serif;
   text-align: left;
+  font-size: 20px;
+}
+.numbers0 {
+  padding-left: 28px;
+  padding-right: 28px;
+  margin-right: 7px;
+  background-color: rgb(65, 65, 65);
+  color: white;
+  border-radius: 15%;
+  border-color: blue;
+  font-size: 20px;
+}
+.numbers {
+  padding-left: 7px;
+  padding-right: 7px;
+  margin-right: 7px;
+  margin-top: 5px;
+  background-color: rgb(65, 65, 65);
+  color: white;
+  border-radius: 30%;
+  border-color: blue;
+  font-size: 20px;
+}
+.miscellaneous {
+  padding: 5px;
+  margin-right: 7px;
+  margin-top: 5px;
+  background-color: rgb(98, 167, 98);
+  border-radius: 30%;
+  border-color: blue;
+  font-size: 10px;
+}
+.symbols {
+  padding-left: 7px;
+  padding-right: 7px;
+  margin-top: 5px;
+  background-color: yellow;
+  color: white;
+  border-radius: 30%;
+  border-color: blue;
+  font-size: 20px;
+}
+.minus {
+  padding-left: 8px;
+  padding-right: 8px;
+  background-color: yellow;
+  color: white;
+  border-radius: 30%;
+  border-color: blue;
+  font-size: 20px;
+}
+.output {
+  border-radius: 10%;
+  border-color: blue;
+  text-align: right;
 }

@@ -5,9 +5,31 @@ let fruits = ["apple", "pear", "banana", "melon"];
 export default function App() {
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
-      <FruitList />
+      <input className="output"></input>
+      <br />
+      <button className="miscellaneous">AC</button>
+      <button className="miscellaneous">+/</button>
+      <button className="miscellaneous">%</button>
+      <button className="symbols">÷</button>
+      <br />
+      <button className="numbers">7</button>
+      <button className="numbers">8</button>
+      <button className="numbers">9</button>
+      <button className="symbols">x</button>
+      <br />
+      <button className="numbers">4</button>
+      <button className="numbers">5</button>
+      <button className="numbers">6</button>
+      <button className="minus">-</button>
+      <br />
+      <button className="numbers">1</button>
+      <button className="numbers">2</button>
+      <button className="numbers">3</button>
+      <button className="symbols">+</button>
+      <br />
+      <button className="numbers0">0</button>
+      <button className="numbers">.</button>
+      <button className="symbols">=</button>
     </div>
   );
 }
