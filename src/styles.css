@@ -57,3 +57,6 @@
   border-color: blue;
   text-align: right;
 }
+button:hover {
+  transform: scale(1.1);
+}
