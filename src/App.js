@@ -136,7 +136,7 @@ export default function App() {
       <button className="numbers" onClick={handleNumber}>
         .
       </button>
-      <button className="symbols" onClick={handleEqual}>
+      <button className="symbols" onClick={handleEqual} id="=">
         =
       </button>
     </div>
